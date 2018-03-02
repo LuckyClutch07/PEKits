@@ -1,0 +1,9 @@
+name: PEKits
+main: studio.exodius.pekits.PEKits
+version: "1.0.0"
+api: ["1.0.5"]
+
+author: TheKillaBoi
+description: PEKits by exodius studios llc
+website: http://exodius.studio
+

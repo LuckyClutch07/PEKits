@@ -1,0 +1,5 @@
+Kits:
+  test:
+    permission: false
+    items:
+    - ""
