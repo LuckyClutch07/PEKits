@@ -1,4 +1,4 @@
-package studio.exodius.pekits.utils;
+package net.luckyfeed.pekits.utils;
 
 import cn.nukkit.Player;
 import cn.nukkit.entity.Entity;
@@ -7,7 +7,7 @@ import cn.nukkit.scheduler.TaskHandler;
 import cn.nukkit.utils.TextFormat;
 import com.google.common.collect.Maps;
 import org.apache.commons.lang3.mutable.MutableInt;
-import studio.exodius.pekits.PEKits;
+import net.luckyfeed.pekits.PEKits;
 
 import java.util.Map;
 

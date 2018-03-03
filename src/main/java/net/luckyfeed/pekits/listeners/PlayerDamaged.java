@@ -1,13 +1,13 @@
-package studio.exodius.pekits.listeners;
+package net.luckyfeed.pekits.listeners;
 
 import cn.nukkit.Player;
 import cn.nukkit.event.EventHandler;
 import cn.nukkit.event.Listener;
 import cn.nukkit.event.entity.EntityDamageEvent;
 import cn.nukkit.utils.TextFormat;
-import studio.exodius.pekits.PEKits;
-import studio.exodius.pekits.PlayerDamage;
-import studio.exodius.pekits.utils.CombatTag;
+import net.luckyfeed.pekits.PEKits;
+import net.luckyfeed.pekits.PlayerDamage;
+import net.luckyfeed.pekits.utils.CombatTag;
 
 /**
  * <p>Copyright (c) ExodiusMC, 2018. Property of Exodius Studios.</p>

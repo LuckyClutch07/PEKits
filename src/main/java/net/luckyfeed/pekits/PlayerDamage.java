@@ -1,4 +1,4 @@
-package studio.exodius.pekits;
+package net.luckyfeed.pekits;
 
 import cn.nukkit.Player;
 import cn.nukkit.entity.Entity;
@@ -7,7 +7,7 @@ import cn.nukkit.entity.projectile.EntityProjectile;
 import cn.nukkit.event.entity.EntityDamageByEntityEvent;
 import cn.nukkit.event.entity.EntityDamageEvent;
 import cn.nukkit.utils.TextFormat;
-import studio.exodius.pekits.utils.CombatTag;
+import net.luckyfeed.pekits.utils.CombatTag;
 
 /**
  * <p>Copyright (c) ExodiusMC, 2018. Property of Exodius Studios.</p>

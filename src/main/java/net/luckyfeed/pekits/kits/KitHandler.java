@@ -1,6 +1,7 @@
-package studio.exodius.pekits.kits;
+package net.luckyfeed.pekits.kits;
 
 import cn.nukkit.item.Item;
+import net.luckyfeed.pekits.Requirement;
 
 import java.util.List;
 
@@ -13,6 +14,5 @@ import java.util.List;
  */
 public interface KitHandler {
     List<Item> items();
-    
-
+    List<Requirement> requirements();
 }

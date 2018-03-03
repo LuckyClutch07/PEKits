@@ -1,10 +1,10 @@
-package studio.exodius.pekits.listeners;
+package net.luckyfeed.pekits.listeners;
 
 import cn.nukkit.Player;
 import cn.nukkit.event.EventHandler;
 import cn.nukkit.event.Listener;
 import cn.nukkit.event.player.PlayerJoinEvent;
-import studio.exodius.pekits.PEKits;
+import net.luckyfeed.pekits.PEKits;
 
 /**
  * <p>Copyright (c) ExodiusMC, 2018. Property of Exodius Studios.</p>

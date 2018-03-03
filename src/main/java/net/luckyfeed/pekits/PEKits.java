@@ -1,4 +1,4 @@
-package studio.exodius.pekits;
+package net.luckyfeed.pekits;
 
 import cn.nukkit.Nukkit;
 import cn.nukkit.Player;
@@ -6,14 +6,11 @@ import cn.nukkit.command.Command;
 import cn.nukkit.command.CommandSender;
 import cn.nukkit.item.Item;
 import cn.nukkit.plugin.PluginBase;
-import cn.nukkit.utils.Config;
 import cn.nukkit.utils.TextFormat;
 import lombok.Getter;
-import studio.exodius.pekits.listeners.PlayerConnection;
-import studio.exodius.pekits.listeners.PlayerDamaged;
-import studio.exodius.pekits.listeners.PlayerJoin;
-
-import java.io.File;
+import net.luckyfeed.pekits.listeners.PlayerConnection;
+import net.luckyfeed.pekits.listeners.PlayerDamaged;
+import net.luckyfeed.pekits.listeners.PlayerJoin;
 
 /**
  * <p>Copyright (c) ExodiusMC, 2018. Property of Exodius Studios.</p>
@@ -24,19 +21,12 @@ import java.io.File;
  */
 public class PEKits extends PluginBase{
 
-    private static File KITS_FILE = new File("plugins/PEKits/kits.yml");
-    private static Config KITS;
-    public static final String COMBAT_TAG = TextFormat.colorize("&c&lCombat&r \uD83E\uDD14 ");
-    public static final String SERVER_TAG = TextFormat.colorize("&b&lLuckyFEED&r \uD83E\uDD14 ");
+    public static final String COMBAT_TAG = TextFormat.colorize("&8(&c&lCombat&r) ");
+    public static final String SERVER_TAG = TextFormat.colorize("&8(&b&lLuckyFEED&r&8) ");
     @Getter public Nukkit nukkit;
 
     public void onLoad(){
-        if(!KITS_FILE.exists()){
-            saveResource("kits.yml", false);
-            KITS = new Config(KITS_FILE, Config.YAML);
-        } else {
-            KITS = new Config(KITS_FILE, Config.YAML);
-        }
+
 
         this.getLogger().info("PEKits has been loaded.");
     }

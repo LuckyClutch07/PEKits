@@ -1,4 +1,4 @@
-package studio.exodius.pekits.utils;
+package net.luckyfeed.pekits.utils;
 
 import com.google.gson.TypeAdapter;
 import com.google.gson.stream.JsonReader;

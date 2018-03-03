@@ -1,5 +1,5 @@
 name: PEKits
-main: studio.exodius.pekits.PEKits
+main: PEKits
 version: "1.0.0"
 api: ["1.0.5"]
 

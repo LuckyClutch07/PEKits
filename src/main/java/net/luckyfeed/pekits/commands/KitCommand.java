@@ -1,4 +1,4 @@
-package studio.exodius.pekits.commands;
+package net.luckyfeed.pekits.commands;
 
 import cn.nukkit.command.Command;
 import cn.nukkit.command.CommandExecutor;

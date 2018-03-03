@@ -2,11 +2,9 @@ studio\exodius\pekits\utils\Position$Serializer.class
 studio\exodius\pekits\utils\CombatTag.class
 studio\exodius\pekits\listeners\PlayerDamaged.class
 studio\exodius\pekits\commands\ItemDB.class
-studio\exodius\pekits\PlayerDamage$1.class
 studio\exodius\pekits\utils\Position.class
 studio\exodius\pekits\listeners\PlayerJoin.class
 studio\exodius\pekits\listeners\PlayerConnection.class
 studio\exodius\pekits\PEKits.class
-studio\exodius\pekits\PlayerDamage.class
 studio\exodius\pekits\commands\KitCommand.class
 studio\exodius\pekits\utils\CombatTag$1.class
