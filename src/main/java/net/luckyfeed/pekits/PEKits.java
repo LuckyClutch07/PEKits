@@ -1,6 +1,5 @@
 package net.luckyfeed.pekits;
 
-import cn.nukkit.Nukkit;
 import cn.nukkit.Player;
 import cn.nukkit.command.Command;
 import cn.nukkit.command.CommandSender;
@@ -21,9 +20,9 @@ import net.luckyfeed.pekits.listeners.PlayerJoin;
  */
 public class PEKits extends PluginBase{
 
-    public static final String COMBAT_TAG = TextFormat.colorize("&8(&c&lCombat&r) ");
-    public static final String SERVER_TAG = TextFormat.colorize("&8(&b&lLuckyFEED&r&8) ");
-    @Getter public Nukkit nukkit;
+    public static final String COMBAT_TAG = TextFormat.colorize("&8(&c&lCombat&r) &7");
+    public static final String SERVER_TAG = TextFormat.colorize("&8(&b&lLuckyFEED&r&8) &7");
+    @Getter private PEKits instance;
 
     public void onLoad(){
 
@@ -35,7 +34,7 @@ public class PEKits extends PluginBase{
         this.getLogger().info("PEKits has been disabled.");
     }
     public void onEnable(){
-        nukkit = getNukkit();
+        instance = this;
 
         getServer().getPluginManager().registerEvents(new PlayerJoin(this), this);
         getServer().getPluginManager().registerEvents(new PlayerDamaged(this), this);

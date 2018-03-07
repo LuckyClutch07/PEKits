@@ -1,4 +1,6 @@
 package net.luckyfeed.pekits.listeners;
 
-public class KitEquip {
+import cn.nukkit.event.Listener;
+
+public class KitEquip implements Listener {
 }
